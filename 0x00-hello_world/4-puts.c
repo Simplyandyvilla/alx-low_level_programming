@@ -1,10 +1,16 @@
 #include<stdio.h>
-int main()
+/**
+ * main - Entry point
+ *
+ * Description: 'using the puts'
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	/*declaring my string*/
-    char Mystr[] = "Programming is like building a multilingual puzzle\n";
-    
-    puts(Mystr); /*printing my declared string*/
-    
-    return 0;
+	char myStr[] = "Programming is like building a mulilingual puzzle\n";
+	/*printingdeclared string using puts*/
+	puts(myStr);
+	return 0;
 }
