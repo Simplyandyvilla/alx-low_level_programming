@@ -9,8 +9,8 @@
 int main(void)
 {
 	/*declaring my string*/
-	char myStr[] = "Programming is like building a mulilingual puzzle\n";
+	char myStr[] = "\"Programming is like building a mulilingual puzzle";
 	/*printingdeclared string using puts*/
 	puts(myStr);
-	return 0;
+	return (0);
 }
